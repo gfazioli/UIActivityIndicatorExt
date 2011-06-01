@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+  <TOC>
+    <Node>
+      <Name>Root</Name>
+      <Path>main.html</Path>
+      <Subnodes>
+       <Node>
+        <Name>Elenco dei tipi composti</Name>
+        <Path>annotated.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>UIActivityIndicatorExt</Name>
+          <Path>interface_u_i_activity_indicator_ext.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Indice dei tipi composti</Name>
+        <Path>classes.html</Path>
+       </Node>
+       <Node>
+        <Name>Membri dei composti</Name>
+        <Path>functions.html</Path>
+       </Node>
+       <Node>
+        <Name>Elenco dei file</Name>
+        <Path>files.html</Path>
+        <Subnodes>
+        </Subnodes>
+       </Node>
+      </Subnodes>
+    </Node>
+  </TOC>
+</DocSetNodes>
