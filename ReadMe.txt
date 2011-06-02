@@ -25,7 +25,9 @@ QuartzCore
 
 
 ===========================================================================
-LISTA DEI PACCHETTI:
+ESEMPIO:
+
+[UIActivityIndicatorExt activityWithSize:CGSizeMake(200, 150) andText:@"Ciao..."];
 
 
 ===========================================================================

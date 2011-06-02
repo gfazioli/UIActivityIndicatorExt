@@ -36,11 +36,12 @@
 		E0147CB313615F5900C4B469 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		E0147CB413615F5900C4B469 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		E0147CB713615F5900C4B469 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DemoViewController.xib; sourceTree = "<group>"; };
-		E0147CBF13615FB400C4B469 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		E0147CC51361606700C4B469 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E0A8A0791396FBCE00C420E3 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = ReadMe.txt; path = ../ReadMe.txt; sourceTree = "<group>"; };
 		E0AB249913951DAB00F80D60 /* UIActivityIndicatorExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityIndicatorExt.h; sourceTree = "<group>"; };
 		E0AB249A13951DAB00F80D60 /* UIActivityIndicatorExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityIndicatorExt.m; sourceTree = "<group>"; };
 		E0AB249E139528EA00F80D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		E0D99EB81397E086000BFCD9 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/DemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +62,7 @@
 		E0147C8F13615F5900C4B469 = {
 			isa = PBXGroup;
 			children = (
-				E0147CBF13615FB400C4B469 /* ReadMe.txt */,
+				E0A8A0791396FBCE00C420E3 /* ReadMe.txt */,
 				E0AB249713951D9500F80D60 /* UIActivityIndicatorExt */,
 				E0147CA413615F5900C4B469 /* Demo */,
 				E0147C9D13615F5900C4B469 /* Frameworks */,
@@ -166,6 +167,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				it,
 			);
 			mainGroup = E0147C8F13615F5900C4B469;
 			productRefGroup = E0147C9B13615F5900C4B469 /* Products */;
@@ -242,6 +244,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E0147CB713615F5900C4B469 /* en */,
+				E0D99EB81397E086000BFCD9 /* it */,
 			);
 			name = DemoViewController.xib;
 			sourceTree = "<group>";
