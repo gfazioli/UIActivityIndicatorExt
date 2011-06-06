@@ -58,7 +58,7 @@ static UIActivityIndicatorExt *sharedInstance = nil;
                                                object:nil]; 
     
     self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    self.backgroundColor = [UIColor colorWithRed:1 green:0 blue:0 alpha:0.1];
+    self.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.1];
     
     // Round View
     _activityView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, _size.width, _size.height)];
