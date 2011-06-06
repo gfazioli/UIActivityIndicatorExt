@@ -191,6 +191,12 @@ static UIActivityIndicatorExt *sharedInstance = nil;
 
 - (void)showWithSize:(CGSize)aSize andText:(NSString *)aText animated:(BOOL)animated
 {
+    
+    if( !CGAffineTransformEqualToTransform(CGAffineTransformIdentity, _activityView.transform) ) {
+        CGSize rSize = CGSizeMake(aSize.height, aSize.width);
+        aSize = rSize;
+    }
+    
     _size = aSize;
     _text = aText;
     CGRect activityFrame = _activityView.frame;
@@ -251,7 +257,7 @@ static UIActivityIndicatorExt *sharedInstance = nil;
 {
     NSLog(@"%s", __FUNCTION__);
     
-    //[self performSelector:@selector(updateForOrientation) withObject:nil afterDelay:0];    
+    [self performSelector:@selector(updateForOrientation) withObject:nil afterDelay:0];    
 }
 
 #pragma mark - Orientation

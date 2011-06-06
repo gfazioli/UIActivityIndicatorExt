@@ -52,7 +52,7 @@
 {
     [super viewDidLoad];
 
-    [self performSelector:@selector(activityIndicator) withObject:nil afterDelay:1];
+    [self performSelector:@selector(activityIndicator) withObject:nil afterDelay:3.];
 
 }
 
